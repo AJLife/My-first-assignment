@@ -8,7 +8,7 @@
 }
 body {
   width: 1600px;
-  height: 5021px;
+  
 }
 /* Start header section style */
 header {
@@ -112,7 +112,7 @@ header {
   font-size: 30px;
   font-weight: 700;
   border: 0px;
-  border-radius: px;
+  border-radius: 7px;
   text-transform: uppercase;
   color: #fff;
   background: #0000006d;
@@ -122,12 +122,53 @@ header {
   position: relative;
   transition: background-color 0.6s ease;
   overflow: hidden;
-
 }
 .welcome-banner >.btn:hover {
   background:  #1a02ef;
-  animation: pulse 1s;
   border-radius: 7px;
 
 }
+.l-btn:hover {
+  background:  #1a02ef;
+  border-radius: 7px;
 
+}
+.location-section{
+    margin-top: 120px;
+  
+}
+.location-content{
+  width: 1320px;
+  height: 500px;
+  border-radius: 16px;
+  text-align: center;
+  background: linear-gradient(180deg,rgba(255,0,0,0.10)0%, rgba(255,0,0,0.00)100%);
+}.location{
+  padding-top: 100px;
+}span{
+  font-size: 32px;
+  color: #f00;
+  font-family: inter;
+  font-weight: 600;
+  line-height: 56px;
+}.location>h3{
+  font-size: 32px;
+  font-family: inter;
+  font-weight: 600px;
+  line-height: 56px;
+  color: #070211;
+}.l-btn{
+  margin-top: 48px;
+  color: #fff;
+  background: #f00;
+  transition: background-color 0.6s ease;
+  text-align: center;
+  border: 0px;
+  border-radius: 7px;
+  text-transform: uppercase;
+  font-family: inter;
+  font-size: 30px;
+  font-weight: 700;
+  height: 90px;
+  width: 200px;
+}
