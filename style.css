@@ -9,7 +9,7 @@
 body {
   width: 1600px;
 }
-
+/* Start header section style */
 header {
   height: 600px;
   width: 1320px;
@@ -39,8 +39,9 @@ header {
   color: #fff;
   font-family: Merriweather;
 }
-section {
+.header-section {
   text-align: center;
   justify-content: center;
   padding-top: 189px;
 }
+/* Start header section style */
