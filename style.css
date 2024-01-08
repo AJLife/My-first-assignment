@@ -19,7 +19,7 @@ header {
   margin-top: 50px;
   margin-right: 140px;
   margin-left: 140px;
-  border-radius: 16px;
+  border-radius: 16px; 
 }
 .new-year-content {
   text-align: center;
@@ -47,4 +47,31 @@ header {
   justify-content: center;
   padding-top: 189px;
 }
-/* Start header section style */
+/* End header section style */
+
+/* Start main section style */
+.category-container{
+  margin-top: 120px;
+  width: 650px;
+  
+}.category-content{
+  text-align: center;
+  font-family: inter;
+  width: 400px;
+}.category-content>h1{
+  font-size: 72px;
+  color: #f00;
+  font-weight: 700;
+  padding-bottom: 46px;
+}.category-content>h6{
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 8px;
+}.category-content>h2{
+  color: #070211;
+  font-size: 42px;
+  font-weight: 700;
+}.category-img{
+  padding-top: 45px;
+
+}
