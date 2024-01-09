@@ -14,7 +14,7 @@ header {
   height: 600px;
   width: 1320px;
   background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../My-first-assignment/Picture/Banner\ Image.png");
+    url("/Picture/Banner\ Image.png");
   background-repeat: no-repeat;
   margin-top: 50px;
   margin-right: 140px;
@@ -80,14 +80,19 @@ header {
   margin-top: 120px;
 }
 .welcome-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome-banner {
   width: 1320px;
   height: 600px;
   background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../My-first-assignment/Picture/Vectorrr.png");
+    url("/Picture/Vectorrr.png");
   background-repeat: no-repeat;
   border-radius: 16px;
 }
-.welcome-banner > h1 {
+.welcome-banner-l-content > h1 {
   color: #fff;
   font-size: 64px;
   font-weight: 900;
@@ -95,13 +100,24 @@ header {
   letter-spacing: 7.04px;
   padding: 124px 0px 24px 124px;
 }
-.welcome-banner > p {
+.welcome-banner-l-content > p {
   color: rgba(255, 255, 255, 0.8);
   padding: 0px 0px 24px 124px;
   font-weight: 400px;
   font-size: 18px;
   line-height: 30px;
   font-family: inter;
+}
+.welcome-banner-r-content {
+  width: 320px;
+  height: 464px;
+  margin-right: 150px;
+  background: radial-gradient(
+    circle,
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.1) 35%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
 }
 .btn {
   margin-top: 15px;
@@ -122,7 +138,7 @@ header {
   transition: background-color 0.6s ease;
   overflow: hidden;
 }
-.welcome-banner > .btn:hover {
+.welcome-banner-l-content > .btn:hover {
   background: #1a02ef;
   border-radius: 7px;
 }
@@ -196,13 +212,12 @@ span {
 }
 .new-offer > h1 {
   font-family: Merriweather;
-  font-size: 40px;
+  font-size: 48px;
   font-weight: 900;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #070211;
   margin-top: 25px;
   padding-bottom: 22px;
-  
 }
 .new-offer > p {
   color: rgba(7, 2, 17, 0.6);
@@ -210,11 +225,13 @@ span {
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
-}.offer-img{
+}
+.offer-img {
   padding: 40.5px;
   border-radius: 463px;
   border: 15px solid #f00;
-}.exclusive-offer{
+}
+.exclusive-offer {
   padding-top: 25px;
 }
 .exclusive-offer > p {
@@ -224,13 +241,71 @@ span {
   font-weight: 400;
   line-height: 32px;
   padding-bottom: 8px;
-}.exclusive-offer>h3{
+}
+.exclusive-offer > h3 {
   color: #f00;
   font-size: 48px;
   font-weight: 700;
   font-family: inter;
-}.exclusive-offer>img{
+}
+.exclusive-offer > img {
   width: 140px;
   height: 140px;
   padding-top: 33px;
+}
+.holiday-section {
+  margin-top: 120px;
+}
+.holiday-content {
+  width: 1320px;
+  height: 12555px;
+  text-align: center;
+}
+.holiday-section-title > p {
+  width: 1000px;
+  line-height: 32px;
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(7, 2, 17, 0.6);
+}
+.holiday-section-title > h3 {
+  font-family: inter;
+  font-size: 24px;
+  font-weight: 500;
+  color: #070211;
+  text-transform: uppercase;
+}
+.holiday-section-title > h1 {
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  color: #070211;
+  text-transform: capitalize;
+  margin-bottom: 28px;
+}
+
+.holiday-section-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 88px;
+}#grp-44{
+  margin-right: 400px;
+}
+.rect-img1  {
+  margin-left: 400px;
+  background-image: url('/Picture/Rectangle\ 1.png');  
+  background-repeat: no-repeat;
+  width: 600px;
+
+}
+.gift-box > img {
+  width: 500px;
+  
+}.rect-img2{
+  background-image: url('/Picture/Rectangle\ 2.png');
+  background-repeat: no-repeat;
+  width: 1320px;
+  height: 500px;
+
 }
