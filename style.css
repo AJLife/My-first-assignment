@@ -258,7 +258,6 @@ span {
 }
 .holiday-content {
   width: 1320px;
-  height: 12555px;
   text-align: center;
 }
 .holiday-section-title > p {
@@ -308,4 +307,33 @@ span {
   width: 1320px;
   height: 500px;
 
+}.service-container{
+  width: 1320px;
+}.some-service-img{
+  display: flex;
+  gap: 64px;
+  margin-top: 48px ;
+  padding-bottom: 10px;
+}.srvc-img{
+  padding-top: 15px;
+}.service-content-demo>h3{
+  color: #f00;
+  font-family: inter;
+  font-weight: 500;
+  font-size: 24px;
+}
+.service-content-demo>h1{
+  padding-top: 25px;
+  color: #070211;
+  font-family: Merriweather;
+  font-weight: 900;
+  font-size: 48px;
+
+}.service-content-demo>p{
+  color:  rgba(7, 2, 17, 0.60);
+  font-family: inter;
+  font-weight: 400;
+  font-size: 20px;
+  padding-left: 40px;
+  padding-top: 25px;
 }
